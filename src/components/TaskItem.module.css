@@ -14,10 +14,10 @@
   align-items: center;
   --taskgroup-gap: 0.5em;
   gap: var(--taskgroup-gap);
+  position: relative;
 }
 
 .label {
-  position: relative;
   cursor: pointer;
   text-align: left;
   line-height: 1.4;
